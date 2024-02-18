@@ -55,42 +55,115 @@
     align-items: center;
 }
 
-button {
+.first-button {
     background-color: #3882F6;
     color: white;
     border: none;
     padding: 0.7rem 1.5rem;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 14px;
     margin-top: 5px;
 }
 
-.random-text {
-    font-size: 38px;
-    font-weight: bolder;
-    height: 400px;
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 3rem;
 }
 
-.random-text {
+.empty-box {
+    height: 200px;
+    width: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 1rem;
+}
+
+.text {
+    max-width: 140px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 100px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: light;
+    max-width: 750px;
+}
+
+.author {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 28px;
+    text-align: end;
     margin: 0;
 }
 
-.parent-container {
+.last-container {
+    height: 300px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
-.child-container > div {
-    height: 140px;
-    width: 150px;
-    border: 3px solid #3882F6;
+.action {
+    background-color: #3882F6;
+    height: 100px;
+    width: 700px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+    align-items: flex-start;
 }
 
-.sub-text {
-    width: 140px;
-    text-align: center;
+.call-text {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.last-text {
+    color: white;
+    font-weight: lighter;
+}
+
+.call-text,
+.last-text {
+    margin-left: 3rem;
+}
+
+.last-button {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 0.5rem 2rem;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
 }
