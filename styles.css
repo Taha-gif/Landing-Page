@@ -1,4 +1,6 @@
-
+body {
+    font-family: Roboto;
+}
 
 .navbar {
     background-color: #1F2937;
@@ -133,37 +135,50 @@
 
 .action {
     background-color: #3882F6;
-    height: 100px;
-    width: 700px;
+    height: 150px;
+    width: 800px;
     border-radius: 10px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    gap: 5rem;
 }
 
-.call-text {
+.action p {
+    margin: 0;
+}
+
+.action p:first-child{
     color: white;
-    font-size: 1.5rem;
-    font-weight: bolder;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
-.last-text {
+.action p:last-child {
     color: white;
     font-weight: lighter;
-}
-
-.call-text,
-.last-text {
-    margin-left: 3rem;
+    font-size: 1.2rem;
 }
 
 .last-button {
-    background-color: transparent;
+    background-color: #3882F6;
+    color: white;
     border: 2px solid white;
     border-radius: 10px;
-    padding: 0.5rem 2rem;
-    color: white;
-    font-size: 0.9rem;
-    font-weight: bold;
+    padding: 8px 2rem;
+    font-size: 1.2rem;
 }
+
+.foot {
+    height: 100px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 1.3rem;
+}
+
